@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.top_image {
+    background-image: url('../images/index_pg_top.jpg');
+    height: 450px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: 55%;
+    text-align: center;
+    color: rgb(238, 118, 5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.top_image h1 {
+    font-size: 4rem;
+    text-shadow: 2px 2px #fff;
+    padding-top: 4rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.top_image span {
+    text-shadow: 1px 1px #fff;
+    font-size: 1.5rem;
+    padding: 8px;
+    border-radius: 3rem;
+}
+
+.top_image button{
+    padding: 0.5rem 4rem;
+    border-radius: 5rem;
+    margin-top: 3rem;
+    background: rgba(238, 118, 5, 0.4);
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    border: 0.2rem solid rgb(238, 118, 5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.top_image button:hover{
+    color: rgb(238, 118, 5, 0.4);
+    background-color: rgba(255,255,255,0.4);
+}
+
+.home_about_us {
+    background-color: rgb(255, 237, 219);
+    /* color: rgb(238, 118, 5); */
+}
+
+.heading_about_us {
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    color: rgb(238, 118, 5);
+}
+
+.text_about_us p {
+    padding: 1rem 3rem;
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.clip_arts {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.common_css {
+    position: relative;
+    margin: 15px;
+}
+
+.clip_arts .img_cont .caption{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.home_course{
+    background-color: rgb(255, 247, 226);
+    color: rgb(228, 112, 4);
+}
+
+.heading_courses 
+{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
+
+.course_clip_arts{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.course_clip_arts .img_cont_courses{
+    position: relative;
+    margin: 15px;
+    overflow-x: hidden;
+}
+
+.course_clip_arts .img_cont_courses img{
+    width: 100%;
+    height: 172px;
+    border-radius: 10px;
+}
+
+.course_clip_arts .img_cont_courses h2{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(228, 112, 4);
+}
+
+.course_clip_arts .img_cont_courses p{
+    text-align: center;
+    display: flex;
+    color: black;
+}
+
+.home_course_btn{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding: 15px;
+}
+
+.home_course_btn .btn{
+    padding: 0.5rem 4rem;
+    border-radius: 5rem;
+    margin-top: 1rem;
+    background: none;
+    color: rgb(238, 118, 5);
+    font-size: 18px;
+    cursor: pointer;
+    border: 0.2rem solid rgb(238, 118, 5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.home_course_btn .btn:hover{
+    color: #fff;
+    background-color: rgb(238, 118, 5,0.4);
+}
+
+.home_gal{
+    background-color: rgb(255, 237, 219);
+    color: rgb(238, 118, 5);
+}
+
+.home_gal_heading h2{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
+
+.home_gal_cont .gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home_gal_cont .gallery .gal_img{
+    margin: 5px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.home_gal_cont .gallery .gal_img img{
+    width: 100%;
+    height: 172px;
+    border-radius: 7px;
+}
+
+.top_resize{
+    margin-top: -5px;
+}
+
+/* RESPONSIVE CSS */
+@media screen and (max-width: 768px){
+    .course_clip_arts{
+        display: block;
+    }
+    .course_clip_arts .img_cont_courses img{
+        height: 300px;
+    }
+    .clip_arts{
+        overflow-x: hidden;
+    }
+    .top_image h1{
+        font-size: 3rem;
+    }
+    .top_image span{
+        font-size: 1.2rem;
+    }
+    .heading_about_us{
+        font-size: 25px;
+    }
+    .text_about_us p{
+        font-size: 15px;
+    }
+    .home_gal_cont .gallery{
+        display: block;
+    }
+    .home_gal_cont .gallery .gal_img img{
+        height: 300px;
+    }
+}

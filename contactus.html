@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/contactus.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Merit Education</a>
+        <div class="menu_toggle"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li><a href="course.html">Course</a></li>
+                <li><a href="faculty.html">Faculty</a></li>
+                <li><a href="contactus.html" class="active">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="clearfix"></div>
+    </header>
+
+    <section>
+        <div class="top_image_contct">
+            <div class="heading">
+                <h1> Get In Touch With Us </h1>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quasi expedita amet quisquam
+                consectetur numquam incidunt voluptatum illo qui ea.</p>
+        </div>
+
+        <div class="common_css admission_form">
+            <form action="" name="contactform" method="get">
+                <div class="form-header">
+                    <h1>Contact Us</h1>
+                </div>
+                <!-- form body -->
+                <div class="form-body">
+                    <!-- Firstname and Lastname -->
+                    <div class="horizontal-group">
+                        <div class="form-group left">
+                            <label for="firstname" class="label-title">First name *</label>
+                            <input type="text" id="firstname" class="form-input" placeholder="enter your first name" name="First Name"
+                                required="required" />
+                        </div>
+                        <div class="form-group right">
+                            <label for="lastname" class="label-title">Last name</label>
+                            <input type="text" id="lastname" class="form-input" placeholder="enter your last name" name="Last Name" />
+                        </div>
+                    </div>
+                    <div class="horizontal-group">
+                        <!-- Email -->
+                        <div class="form-group left">
+                            <label for="email" class="label-title">Email*</label>
+                            <input type="email" id="email" class="form-input" placeholder="enter your email" name="Email Id"
+                                required="required">
+                        </div>
+                        <div class="form-group right">
+                            <label for="lastname" class="label-title">Mobile*</label>
+                            <input type="text" id="mobile" class="form-input" placeholder="enter your last name" name="Mobile Number" />
+                        </div>
+                    </div>
+
+                    <div class="form-group right">
+                        <label class="label-title">Choose Time Slot :</label>
+                        <div>
+                            <label class="common_color">
+                                <input type="radio" name="Time = 10:00 am"> 10:00 a.m.</label>
+                            <label class="common_color">
+                                <input type="radio" name="Time = 12:00 pm"> 12:00 p.m.</label>
+                            <label class="common_color">
+                                <input type="radio" name="Time = 2:00 pm"> 02:00 p.m.</label>
+                            <label class="common_color">
+                                <input type="radio" name="Time = 4:00 pm">04:00 p.m.</label>
+                            <label class="common_color">
+                                <input type="radio" name="Time = 6:00 pm"> 06:00 p.m.<label>
+                        </div>
+                    </div>
+                    <div class="form-button">
+                        <button type="submit" class="btn" onclick="myButton()">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="sec sec_aboutus">
+                <h2>Merit Education</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos cupiditate quam at ipsum et.
+                    Placeat optio corporis obcaecati officia consequuntur laboriosam molestias id odio, consequatur hic
+                    eaque sit voluptatibus! Quo.</p>
+                <ul class="social_icons">
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container top_resize">
+            <div class="sec sec_quicklinks">
+                <h2 class="resize">Quick Links</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about_us.html">About Us</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="faculty.html">Faculty</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                    <li><a href="developers.html">Developers</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container top_resize">
+            <div class="sec sec_add">
+                <h2 class="resize">Address</h2>
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i> ABC Street, Kolkata, India</li>
+                    <li><i class="fa-solid fa-phone"></i> (+91) 1234567890</li>
+                    <li><i class="fa-solid fa-envelope"></i> meritEdu@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="copyRight">Copyright &copy; <span id="year"></span>, All Rights Reserved Merit Education</div>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>

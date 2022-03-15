@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top_image {
+    background-image: url('../images/Admission_1.jpg');
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 55% ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.top_image .heading h1 {
+    text-align: center;
+    color: rgb(238, 118, 5);
+    padding-top: 4rem;
+    font-size: 4rem;
+    text-shadow: 2px 2px #fff;
+}
+
+.top_image p {
+    /* background-color: rgba(15, 15, 15, 0.4); */
+    color: rgb(238, 118, 5);
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 2rem 5rem;
+    margin: 0 5rem;
+    border-radius: 3rem;
+    text-shadow: 1px 1px #fff;
+}
+
+.common_css {
+    position: relative;
+    margin: 15px;
+}
+
+.admission_form_course_table {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.course_details table, th, td {
+    border: 2px solid rgb(255, 242, 228);
+    text-align: center;
+    border-collapse: collapse;
+    background-color: rgb(238, 118, 5);
+    color: white;
+    height: 27px;
+    padding: 8px;
+}
+
+.table-header h1{
+    text-align: center;
+    color: rgb(238, 118, 5);
+}
+
+.form-header h1{
+    text-align: center;
+    color: rgb(238, 118, 5);
+}
+
+.form-body {
+    padding: 10px 40px;
+    color: #666;
+    border: 2px solid rgb(238, 118, 5);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-body .label-title {
+    color: rgb(238, 118, 5);;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.form-body .form-input {
+    font-size: 17px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 34px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #333333;
+    text-align: left;
+    border: 1px solid rgb(238, 118, 5);
+    border-radius: 4px;
+    background: white;
+    outline: none;
+}
+
+.horizontal-group .left {
+    float: left;
+    width: 49%;
+}
+
+.horizontal-group .right {
+    float: right;
+    width: 49%;
+}
+
+input[type="file"] {
+    outline: none;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+::-webkit-input-placeholder {
+    color: #d9d9d9;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 17px;
+    border: 1px solid rgb(238, 118, 5);
+    border-radius: 5px;
+    color: rgb(238, 118, 5);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(238, 118, 5);
+    color: rgb(255, 242, 228);
+}
+
+.common_color{
+    color: rgb(238, 118, 5) !important;
+}
+
+/* RESPONSIVE CSS */
+@media screen and (max-width: 768px) {
+    .top_image p {
+        font-size: 20px;
+        padding: 2rem;
+        margin: 0 2rem;
+        text-shadow: 1px 1px #fff;
+    }
+
+    .top_image .heading h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .top_image p {
+        font-size: 16px;
+        padding: 2rem;
+        margin: 0 1rem;
+        text-shadow: 1px 1px #fff;
+    }
+
+    .top_image .heading h1 {
+        font-size: 3rem;
+        text-shadow: 1px 1px #fff;
+    }
+    .form-body{
+        padding: 10px 22px;
+    }
+}
+
+@media screen and (max-width: 366px) {
+    .top_image p {
+        font-size: 16px;
+        padding: 2rem;
+        /* margin: 0 1rem; */
+        text-shadow: 1px 1px #fff;
+    }
+    .form-body{
+        padding: 10px 34px;
+    }
+}

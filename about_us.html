@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merit Education</title>
+    <link rel="stylesheet" href="./style/about_us.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body style="background-color: rgb(255, 242, 228);">
+    <header>
+        <a href="#" class="logo">Merit Education</a>
+        <div class="menu_toggle"></div>
+        <nav> 
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about_us.html" class="active">About Us</a></li>
+                <li><a href="course.html">Course</a></li>
+                <li><a href="faculty.html">Faculty</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="clearfix"></div>
+    </header>
+
+    <section>
+        <div class="top_image">
+            <div class="heading">
+                <h1>About Us</h1>
+            </div>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia porro quam magnam aliquam dolores
+                cumque illum quaerat culpa facilis, magni voluptate earum amet tempore sint fugiat explicabo
+                voluptatem distinctio exercitationem maxime qui facere. Ullam rem repudiandae natus iusto unde qui
+                earum commodi voluptate sint sunt laboriosam totam rerum, nostrum id libero doloribus deleniti hic
+                quae corporis voluptas molestias quod inventore soluta ipsum. Voluptatum ullam magnam aliquid,
+                facere recusandae a.
+            </p>
+        </div>
+
+        <div class="admission_form_course_table">
+            <div class="common_css admission_form">
+                <form action="#">
+                    <div class="form-header">
+                        <h1>Take Admission</h1>
+                    </div>
+                    <!-- form body -->
+                    <div class="form-body">
+                        <!-- Firstname and Lastname -->
+                        <div class="horizontal-group">
+                            <div class="form-group left">
+                                <label for="firstname" class="label-title">First name *</label>
+                                <input type="text" id="firstname" class="form-input" placeholder="enter your first name"
+                                    required="required" />
+                            </div>
+                            <div class="form-group right">
+                                <label for="lastname" class="label-title">Last name</label>
+                                <input type="text" id="lastname" class="form-input"
+                                    placeholder="enter your last name" />
+                            </div>
+                        </div>
+                        <!-- Email -->
+                        <div class="form-group">
+                            <label for="email" class="label-title">Email*</label>
+                            <input type="email" id="email" class="form-input" placeholder="enter your email"
+                                required="required">
+                        </div>
+                        <!-- Gender and Hobbies -->
+                        <div class="horizontal-group">
+                            <div class="form-group left">
+                                <label class="label-title">Gender:</label>
+                                <div class="input-group">
+                                    <label for="male"  class="common_color" >
+                                        <input type="radio" name="gender"value="male" id="male"> Male</label>
+                                    <label for="female"  class="common_color" >
+                                        <input type="radio" name="gender" value="female" id="female"> Female</label>
+                                </div>
+                            </div>
+
+                            <div class="form-group right">
+                                <label class="label-title">Choose Class :</label>
+                                <div>
+                                    <label  class="common_color">
+                                        <input type="checkbox" value="Board"> Board</label>
+                                    <label class="common_color" >
+                                        <input type="checkbox"value="Coding"> Coding</label>
+                                    <label  class="common_color" >
+                                        <input type="checkbox"value="Compititive"> Compititive<label>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- form footer -->
+                        <div class="form-footer">
+                            <button type="submit" class="btn">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="common_css course_details">
+                <table>
+                    <div class="table-header">
+                        <h1>Course Details</h1>
+                    </div>
+                    <tr>
+                        <th>Class</th>
+                        <th>Fees(per month)</th>
+                        <th>Timing</th>
+                        <th>Mode</th>
+                    </tr>
+                    <tr>
+                        <td>X</td>
+                        <td>3500/- </td>
+                        <td>7:30 a.m. - 10:00 a.m.</td>
+                        <td>Online</td>
+                    </tr>
+                    <tr>
+                        <td>Xi</td>
+                        <td>4000/-</td>
+                        <td>7:30 a.m. - 10:00 a.m.</td>
+                        <td>Online</td>
+                    </tr>
+                    <tr>
+                        <td>Xii</td>
+                        <td>4500/-</td>
+                        <td>7:30 a.m. - 10:00 a.m.</td>
+                        <td>Online</td>
+                    </tr>
+                    <tr>
+                        <td>Coding</td>
+                        <td>1000/-</td>
+                        <td>7:30 a.m. - 10:00 a.m.</td>
+                        <td>Online</td>
+                    </tr>
+                    <tr>
+                        <td>Compititive</td>
+                        <td>1000/-</td>
+                        <td>7:30 a.m. - 10:00 a.m.</td>
+                        <td>Online</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="sec sec_aboutus">
+                <h2>Merit Education</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos cupiditate quam at ipsum et.
+                    Placeat optio corporis obcaecati officia consequuntur laboriosam molestias id odio, consequatur hic
+                    eaque sit voluptatibus! Quo.</p>
+                <ul class="social_icons">
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container top_resize">
+            <div class="sec sec_quicklinks">
+                <h2 class="resize">Quick Links</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about_us.html">About Us</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="faculty.html">Faculty</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                    <li><a href="developers.html">Developers</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container top_resize">
+            <div class="sec sec_add">
+                <h2 class="resize">Address</h2>
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i> ABC Street, Kolkata, India</li>
+                    <li><i class="fa-solid fa-phone"></i> (+91) 1234567890</li>
+                    <li><i class="fa-solid fa-envelope"></i> meritEdu@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="copyRight">Copyright &copy; <span id="year"></span>, All Rights Reserved Merit Education</div>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>

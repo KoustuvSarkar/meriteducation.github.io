@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+.top_image {
+    background-image: url('../images/faculty_top_img.jpg');
+    height: 450px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10% 30%;
+    text-align: center;
+    
+}
+.top_image h1{
+    font-size: 4rem;
+    text-align: center;
+    color:rgb(238, 118, 5);
+    text-shadow: 2px 2px #fff;
+    padding-top: 8rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+
+}
+.top_image span{
+    text-shadow: 1px 1px #fff;
+    color: rgb(238, 118, 5);
+    font-size: 1.5rem;
+    padding: 8px;
+    border-radius: 3rem;
+}
+
+.faculty_about {
+    background-color: rgb(255, 237, 219);
+    /* color: rgb(238, 118, 5); */
+}
+
+.heading_faculty_about {
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    color: rgb(238, 118, 5);
+}
+
+.text_faculty_about p {
+    padding-top: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+.clip_arts {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.common_css {
+    position: relative;
+    margin: 15px;
+}
+.clip_arts .img_cont img{
+    width: auto;
+    height: 250px;
+}
+.clip_arts .img_cont .caption{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.clip_arts .img_cont .caption_topic{
+    margin-top: -15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 12px;
+}
+.fac_bookmark_section{
+    background-color: rgb(255, 237, 219);
+    padding-bottom: 20px;
+}
+
+.all_section{
+    padding: 20px 15px 10px;
+    color: rgb(216, 107, 6);
+}
+
+.all_section .all_det{
+    background: rgb(236, 233, 231);
+    display: flex;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 
+    3px 7px -3px;
+    align-items: center;
+    padding: 15px;
+    justify-content: center;
+}
+
+.all_section .all_det h2{
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(160, 69, 8);
+}
+
+.all_section .all_det span{
+    font-size: 1.5rem;
+    padding-bottom: 15px;
+}
+
+.all_section .all_det p{
+    font-size: 1.2rem;
+    text-align: justify;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    color: rgb(41, 40, 40);
+}
+.img_fac {
+    padding: 10px;
+    width: 100%;
+    height: 220px;
+    border-radius: 25px;
+}
+/* RESPONSIVE CSS */
+@media screen and (max-width:991px) {
+    .all_section .all_det {
+        flex-wrap: wrap;
+    }
+    .all_section .all_det h2 {
+        text-align: center;
+    }
+    .all_section .all_det span {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .all_section .all_det p{
+        color: rgb(41, 40, 40);
+    }
+}

@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top_image_contct {
+    background-image: url('../images/contactus.jpg');
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    /* background-position: 25%; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.top_image_contct .heading h1 {
+    text-align: center;
+    color: rgb(238, 118, 5);
+    padding-top: 4rem;
+    font-size: 4rem;
+    text-shadow: 2px 2px #fff;
+}
+
+.top_image_contct p {
+    /* background-color: rgba(15, 15, 15, 0.4); */
+    color: rgb(238, 118, 5);
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 2rem 5rem;
+    text-shadow: 1px 1px #fff;
+}
+
+.common_css {
+    position: relative;
+    margin: 15px;
+}
+
+.form-header h1 {
+    text-align: center;
+    color: rgb(238, 118, 5);
+}
+
+
+.form-body {
+    padding: 10px 30px;
+    color: #666;
+    border: 2px solid rgb(238, 118, 5);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-body .label-title {
+    color: rgb(238, 118, 5);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.form-body .form-input {
+    font-size: 17px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 34px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #333333;
+    text-align: left;
+    border: 1px solid rgb(238, 118, 5);
+    border-radius: 4px;
+    background: white;
+    outline: none;
+}
+
+.horizontal-group .left {
+    float: left;
+    width: 49%;
+}
+
+.horizontal-group .right {
+    float: right;
+    width: 49%;
+}
+
+.common_color {
+    color: rgb(238, 118, 5) !important;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 17px;
+    border: 1px solid rgb(238, 118, 5);
+    border-radius: 5px;
+    color: rgb(238, 118, 5);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(238, 118, 5);
+    color: rgb(255, 242, 228);
+}
+
+.form-button {
+    margin-bottom: 2rem;
+}
+
+/* RESPONSIVE CSS */
+@media screen and (max-width: 670px) {
+    .top_image_contct .heading h1{
+        font-size: 3rem;
+    }
+    .top_image_contct p {
+        padding: 3rem;
+        font-size: 1.2rem;
+    }
+}
